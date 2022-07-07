@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.mainbody {
+  display: flex;
+  flex-direction: column;
+}
+.firstpart {
+  height: 669px;
+  position: relative;
+  background-image: url("images/donation13.jpg");
+  background-size: cover;
+}
+div.upperpart {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  margin: -25px 0 0 -25px;
+}
+.help {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 79px;
+  width: 826px;
+}
+.stxt {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  width: 691px;
+  padding-top: 5px;
+  position: relative;
+  left: 52px;
+}
+.dbtn {
+  position: relative;
+  right: 50px;
+  background-color: #ff5959;
+  border-radius: 5px;
+  align-items: center;
+  padding: 16px 12px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 24px;
+  color: #ffffff;
+  border: none;
+}
+.stxt1 {
+  position: relative;
+  text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #707070;
+  width: 691px;
+  left: 26.8%;
+}
+.dheading {
+  width: 304px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  color: #121212;
+  position: relative;
+  left: 40%;
+}
+.container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding-left: 25%;
+}
+.one {
+  width: 135px;
+  height: 123px;
+  background: #fafafa;
+  border-radius: 5px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #707070;
+}
+.donatebuttondiv {
+  position: relative;
+  left: 45%;
+  padding-top: 30px;
+}
+.donatebutton {
+  padding: 10px;
+  background: #ff5959;
+  border: none;
+  border-radius: 5px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.donateh2 {
+  padding-top: 130px;
+  position: relative;
+  left: 5;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  color: #121212;
+}
+.donateh2para {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  width: 691px;
+  color: #707070;
+  position: relative;
+  left: 28.5%;
+  padding-top: 20px;
+}
+.container1 {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.fleximages {
+  padding-left: 23px;
+  padding-top: 65px;
+}
+.fleximgheading {
+  padding-top: 33px;
+  padding-left: 23px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #121212;
+}
+.fitext {
+  padding-top: 33px;
+  padding-left: 23px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #707070;
+}
+.c1 {
+  width: 360px;
+  height: 352px;
+  left: 157px;
+  background: rgba(79, 157, 166, 0.1);
+  border-radius: 5px;
+}
+.c2 {
+  width: 360px;
+  height: 352px;
+  left: 541px;
+  background: rgba(255, 89, 89, 0.1);
+  border-radius: 5px;
+}
+.c3 {
+  width: 360px;
+  height: 352px;
+  left: 925px;
+  background: #fff4d6;
+  border-radius: 5px;
+}
+.livespara {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 54px;
+  color: #121212;
+  width: 492px;
+  height: 108px;
+}
+.livestxt {
+  width: 482px;
+  height: 84px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #707070;
+}
+.emailpart {
+  width: 809px;
+  height: 200px;
+  background: #fff4d6;
+  margin-left: 24%;
+  margin-top: 18px;
+}
+#box {
+  padding-left: 20%;
+  padding-top: 10%;
+}
+.humble {
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.5px;
+  color: #ff5959;
+  padding-left: 45%;
+  padding-top: 43px;
+}
+form.example input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 275px;
+  background: #d9d9d9;
+  border-radius: 5px 0px 0px 5px;
+}
+
+form.example button {
+  float: left;
+  width: 135px;
+  height: 42px;
+  padding: 10px;
+  background: #ff5959;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
